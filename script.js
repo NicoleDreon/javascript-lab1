@@ -1,14 +1,14 @@
 "use strict";
 
-let name = "Mitch Cuckovich";
-let age = 25;
-let birthday = "January 24";
+let name = "Nicole Dreon";
+let age = 35;
+let birthday = "August 28";
 let detroitGC = true;
 let lifeEvents = [
-  "I was born in Troy, Michigan.",
-  "I went to Hope College",
-  "I went to Junior Olympics when I was 10 years old. I placed 14th in the nation in the 800 meter event.",
-  "I'm a graduate of the front-end bootcamp.",
+  "I was born in Texas.",
+  "I attended Adrian College",
+  "I lived in Colorado for eight years.",
+  "I a front-end student at Grand Circus.",
 ];
 if (detroitGC === true) {
   console.log(
@@ -40,7 +40,7 @@ for (let i = 0; i < lifeEvents.length; i++) {
 let counter = 0;
 
 while (true) {
-  let randomNumber = Math.floor(Math.random() * 11);
+  let randomNumber = Math.floor(Math.random() * 10 + 1);
   if (randomNumber !== 5) {
     counter++;
     console.log(`${randomNumber} !== 5`);
