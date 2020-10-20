@@ -1,3 +1,5 @@
+"use strict";
+
 let name = "Mitch Cuckovich";
 let age = 25;
 let birthday = "January 24";
